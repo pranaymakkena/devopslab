@@ -1,0 +1,26 @@
+# Create a project folder
+mkdir event-registration
+
+# Enter the folder
+cd event-registration
+
+# Initialize Git repository
+git init
+
+# Add the HTML file
+git add q1.html
+
+# Commit the file
+git commit -m "Added event registration form"
+
+# Check status
+git status
+
+# View commit history
+git log
+
+# Create a new branch
+git branch feature
+
+# Switch to branch
+git checkout feature
