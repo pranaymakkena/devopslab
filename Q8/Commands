@@ -1,0 +1,14 @@
+# Check Kubernetes cluster
+kubectl cluster-info
+
+# View nodes
+kubectl get nodes
+
+# Create deployment
+kubectl apply -f deployment.yaml
+
+# View deployments
+kubectl get deployments
+
+# View pods
+kubectl get pods
