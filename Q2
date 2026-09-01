@@ -1,0 +1,39 @@
+# Check Git version
+git --version
+
+# Configure user
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+
+# Initialize repository
+git init
+
+# Check repository status
+git status
+
+# Add files
+git add .
+
+# Commit changes
+git commit -m "Initial commit"
+
+# View commits
+git log
+
+# Create branch
+git branch feature
+
+# Switch branch
+git checkout feature
+
+# Return to main branch
+git checkout main
+
+# Add remote repository
+git remote add origin REPOSITORY_URL
+
+# Push code
+git push -u origin main
+
+# Clone repository
+git clone REPOSITORY_URL
