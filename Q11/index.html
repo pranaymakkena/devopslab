@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>
+        Addition Program
+    </title>
+
+</head>
+
+<body>
+
+    <h2>
+        Addition Calculator
+    </h2>
+
+    <input
+        type="number"
+        id="num1"
+        placeholder="First Number"
+    >
+
+    <input
+        type="number"
+        id="num2"
+        placeholder="Second Number"
+    >
+
+    <button
+        onclick="addNumbers()"
+    >
+        Add
+    </button>
+
+    <h3 id="result"></h3>
+
+
+    <script>
+
+        function addNumbers() {
+
+            let num1 =
+                Number(
+                    document.getElementById(
+                        "num1"
+                    ).value
+                );
+
+            let num2 =
+                Number(
+                    document.getElementById(
+                        "num2"
+                    ).value
+                );
+
+
+            document.getElementById(
+                "result"
+            ).innerHTML =
+                "Result: " +
+                (num1 + num2);
+
+        }
+
+    </script>
+
+</body>
+
+</html>
