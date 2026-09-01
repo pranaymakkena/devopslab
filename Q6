@@ -1,0 +1,38 @@
+# Check Docker version
+docker --version
+
+# Display Docker information
+docker info
+
+# List images
+docker images
+
+# List running containers
+docker ps
+
+# List all containers
+docker ps -a
+
+# Download an image
+docker pull nginx
+
+# Run a container
+docker run nginx
+
+# Run container in background
+docker run -d nginx
+
+# Run with port mapping
+docker run -d -p 8080:80 nginx
+
+# Stop container
+docker stop CONTAINER_ID
+
+# Start container
+docker start CONTAINER_ID
+
+# Remove container
+docker rm CONTAINER_ID
+
+# Remove image
+docker rmi IMAGE_ID
