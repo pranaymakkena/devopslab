@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Registration</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 40px;
+        }
+
+        form {
+            width: 350px;
+            padding: 20px;
+            border: 1px solid gray;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+        }
+
+        button {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Event Registration Form</h2>
+
+    <form>
+
+        <label>Name:</label>
+        <input type="text"
+               placeholder="Enter your name"
+               required>
+
+        <label>Email:</label>
+        <input type="email"
+               placeholder="Enter your email"
+               required>
+
+        <label>Phone Number:</label>
+        <input type="tel"
+               placeholder="Enter phone number"
+               required>
+
+        <label>Event Type:</label>
+
+        <select>
+            <option>Technical Event</option>
+            <option>Cultural Event</option>
+            <option>Sports Event</option>
+        </select>
+
+        <br><br>
+
+        <button type="submit">
+            Register
+        </button>
+
+    </form>
+
+</body>
+</html>
